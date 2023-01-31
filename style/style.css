@@ -122,3 +122,23 @@ hr {
     padding-left: 12px;
 }
 /* Style Header end */
+/* Style Brand bar start*/
+.brand-bar {
+    border-bottom: 1px solid #b7b7b7;
+}
+.brand_bar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand_bar-text h2 {
+    color: #4d4d4d;
+    font-size: 20px;
+}
+.brand_bar-text p {
+    color: #a4a5a8;
+    width: 360px;
+    font-size: 17px
+}
+/* Style Brand bar end*/
