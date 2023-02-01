@@ -319,4 +319,60 @@ hr {
 .bottom_text li:last-child {
     padding-bottom: 0;
 }
-/* Style Pricing end     */
+/* Style Pricing end        */
+/* Style Testimonials start */
+.testimonials {
+    margin-top: 220px;
+    margin-bottom: 100px;
+}
+.testimonials_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials_header h2 {
+    font-size: 35px;
+    color: #212121;
+}
+.testimonials_header hr {
+    background-color: #ff8b38;
+    border: 0px;
+    margin: 30px 0px;
+}
+.testimonials_header p {
+    font-size: 17px;
+    color: #86878b;
+    margin-bottom: 80px;
+}
+.testimonials_list {
+    display: flex;
+    justify-content: space-between;
+}
+.item_head {
+    color: #86878b;
+    width: 250px;
+    font-size: 17px;
+}
+.pic {
+    display: flex;
+    margin-top: 50px;
+}
+.photo hr {
+    margin: 0px 20px 0px 0px;
+    background-color: #9a9a9a;
+    border: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.pic_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+/* Style Testimonials end   */
