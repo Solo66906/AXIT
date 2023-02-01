@@ -458,6 +458,7 @@ hr {
 }
 .message_btn {
     margin: 40px 0px;
+    margin-bottom: 80px;
 }
 .message_btn p {
     color: #fff;
@@ -468,3 +469,18 @@ hr {
     background-color: #ff9b51;
 }
 /* Style Contact end   */
+/* Style Footer start */
+footer {
+    background-color: #000;
+}
+.footer {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p {
+    margin-top: 20px;
+}
+/* Style Footer end   */
