@@ -1,9 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 header {
     background-color: black;
 }
 .wrapper {
     max-width: 1100px;
     margin: 0px auto;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 /* Style Navbar start    */
 .nav_bar {
@@ -22,6 +30,8 @@ ul {
     color: #fff;
 }
 .nav_item {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     margin-right: 40px;
 }
 .nav_item:last-child {
@@ -58,7 +68,9 @@ ul {
 .modern {
     margin-top: 30px;
     width: 510px;
-    font-size: 35px;
+    font-size: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 hr {
     width: 60px;
@@ -70,8 +82,12 @@ hr {
     width: 460px;
     font-size: 18px;
     margin-bottom: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 .download-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     padding: 15px 30px;
     border: 2px solid #fff;
 }
@@ -91,6 +107,8 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .header_FREE {
     height: 35px;
@@ -99,6 +117,8 @@ hr {
 }
 .header_FREE span {
     color: #ff8b38;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     margin: 0px 6px;
 }
 .get {
@@ -135,11 +155,24 @@ hr {
 .brand_bar-text h2 {
     color: #4d4d4d;
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .brand_bar-text p {
     color: #a4a5a8;
     width: 360px;
-    font-size: 17px
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ico ul {
+    align-items: center;
+}
+.ico li {
+    margin-left: 60px;
+}
+.ico li:first-child {
+    margin-left: 0px;
 }
 /* Style Brand bar end   */
 /* Style Feature start   */
@@ -160,6 +193,8 @@ hr {
     height: 110px;
     background-color: #333333;
     transition: 0.2s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .tab_item:hover, .tab_item:active {
     background-color: #ff8b38;
@@ -171,24 +206,39 @@ hr {
     margin-bottom: 0;
     border-radius: 0px 0px 5px 5px;
 }
+.itc-slider__items {
+    counter-reset: slide;
+}
+.itc-slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    counter-increment: slide;
+    position: relative;
+}
 .tabs_effect {
     margin: 0px 100px;
 }
 .tabs_effect h2 {
     font-size: 25px;
     margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .lorem2 {
     color: #86878b;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .tabs_effect p:last-child {
     margin-top: 50px;
     margin-bottom: 0px;
 }
 .tab-btn {
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     width: 80px;
     padding: 20px;
     border: 1px solid #ff8b38;
@@ -206,11 +256,13 @@ hr {
     align-items: center;
 }
 .header_process h2 {
-    font-size: 35px;
+    font-size: 45px;
     color: #212121;
 }
 .header_process p {
     color: #a4a5a8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .header_process hr {
     border: 0px;
@@ -226,6 +278,8 @@ hr {
     align-items: center;
 }
 .process_item h3, .process_item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     margin-top: 30px;
     text-align: center;
     width: 350px;
@@ -234,6 +288,9 @@ hr {
 .process_item p {
     color: #a4a5a8;
     margin-bottom: 100px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 /* Style Process end     */
 /* Style Pricing start   */
@@ -246,7 +303,7 @@ hr {
     align-items: center;
 }
 .pricing_header h2 {
-    font-size: 35px;
+    font-size: 45px;
     color: #212121;
 }
 .pricing_header hr {
@@ -257,6 +314,8 @@ hr {
 .pricing_header p {
     color: #a2a3a6;
     margin-bottom: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .pricing_list {
     display: flex;
@@ -276,6 +335,8 @@ hr {
     padding: 10px 0px 10px 0px;
 }
 .card_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -283,10 +344,14 @@ hr {
     font-size: 25px;
 }
 .card_prici {
-    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
     margin: 30px 0px 20px;
 }
 .card_sub_text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     padding-bottom: 20px;
     color: #999;
     font-size: 20px;
@@ -302,6 +367,10 @@ hr {
 }
 .pricing_item:first-child, .pricing_item:last-child {
     margin-top: 40px;
+}
+.bottom {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .bottom_text {
     text-transform: uppercase;
@@ -374,6 +443,10 @@ hr {
     font-size: 25px;
     margin-bottom: 10px;
     color: #333333;
+}
+.work {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 /* Style Testimonials end   */
 /* Style Custom start */
@@ -482,5 +555,18 @@ footer {
 }
 .footer p {
     margin-top: 20px;
+}
+.footer_social {
+    align-items: center;
+}
+.footer_item {
+    margin-left: 30px;
+}
+.footer_item:first-child {
+    margin-left: 0;
+}
+.footer_item img {
+    width: 50%;
+    height: 50%;
 }
 /* Style Footer end   */
